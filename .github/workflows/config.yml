@@ -1,4 +1,4 @@
-name: Jekyll site CI
+name: react-app CI
 
 on:
   push:
