@@ -3,10 +3,14 @@ import React from 'react'
 function Student(props){
     return(
         <div>
-            <p>from {props.Name} city {props.city}</p>
-        </div>  
+        <p>I am {props.Name} from {props.Org}</p>
+        <li>{props.Deptt}</li>
+        <li>{props.Year}</li>
+        <li>{props.City}</li>
+        </div>
+
     )
-    
+
 }
 
 export default Student;

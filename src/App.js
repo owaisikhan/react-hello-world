@@ -1,12 +1,14 @@
 import React from 'react'
 import Student from './Student'
+
 function App(){
     return (
-        <div className="App">
-            <h1>hello world</h1>
-            <Student Name="Owais" city="Peshawar"/>
-            <Student Name="Yasin" city="Peshawar"/>
-        </div>
+        <React.Fragment>
+            <h1>Hello world!</h1>
+            <Student Name="Owais Khan" Org="UET Peshawar" Deptt="Electrical" Year="Final Year"  City="Peshawar"/>
+            <Student Name="Yasin" Org="UET Peshawar" Deptt="Electrical" Year="Final Year" City="Jalozai"/>
+            <Student Name="Usman" Org="UET Peshawar" Deptt="Electrical" Year="Final Year" City="Kamra"/>
+        </React.Fragment>
     )
 }
 
